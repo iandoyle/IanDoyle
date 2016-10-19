@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
-  "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "name": "iandoyle",
+  "version": "0.0.1",
+  "description": "ian doyle deploy of angular 2 to azure via github",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "docker-build": "docker build -t ng2-quickstart .",
@@ -63,7 +63,10 @@
     "karma-jasmine": "^1.0.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "^3.3.0",
-    "rimraf": "^2.5.4"
+    "rimraf": "^2.5.4",
+    "gulp": "3.9.1",
+    "gulp-sourcemaps": "2.0.0-alpha",
+    "del": "2.2.0"
   },
   "repository": {}
 }
